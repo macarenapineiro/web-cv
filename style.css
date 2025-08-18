@@ -1,0 +1,112 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center 15%;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #d4f1f9;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between; 
+            gap: 20px; 
+        }
+
+        .sobre-mi {
+            padding: 20px;
+            background-color: rgb(247, 206, 241);
+            height: auto;
+            width: 30%;
+            min-width: 320px;
+            box-sizing: border-box;
+            text-align: justify;
+
+        }
+        .sobre-mi .icono-container{
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            align-items: center; 
+            width: 100%;
+            height: auto;
+        }
+        .icono img {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .icono img:hover {
+            transform: scale(1.1);
+        }
+
+        .linkedin-icon {
+            width: 75px;
+            height: 75px;
+        }
+
+        .github-icon {
+            width: 70px;
+            height: 70px;
+        }
+
+        .experiencia {
+            flex: 1;
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+        h1{
+            border-bottom: 2px solid #f08fcb;
+            padding-bottom: 0px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            font-weight: 100;
+        }
+
+        h2 {
+            border-bottom: 2px solid #f08fcb;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            color: #b6007f;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
